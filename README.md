@@ -33,9 +33,6 @@ A responsive web archive showcasing 12 groundbreaking Marathi writers whose cont
 ## 🛠 Tech Stack
 
 - **HTML5** - Semantic markup
-- **Tailwind CSS** - Modern styling
-- **JavaScript** - Interactive elements
-- **Google Fonts** - Typography (Inter & Playfair Display)
 
 ## 🚀 Quick Start
 
