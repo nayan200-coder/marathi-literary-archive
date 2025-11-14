@@ -41,4 +41,4 @@ A responsive web archive showcasing 12 groundbreaking Marathi writers whose cont
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nayan200-coder/katha-unsung-voices.git
+   https://github.com/nayan200-coder/marathi-literary-archive
