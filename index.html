@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katha: The Unsung Voices of Marathi Literature</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import and application */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-dark': '#15171e', /* Deeper dark background */
+                        'secondary-gold': '#ffd700', /* True gold accent */
+                        'accent-gray': '#374151', /* Subtle card background */
+                        'text-light': '#e5e7eb',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-primary-dark text-text-light min-h-screen">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-primary-dark/95 backdrop-blur-sm shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="heading-font text-2xl font-bold text-secondary-gold">Katha: Unsung Voices</h1>
+            <nav class="space-x-4 text-sm hidden md:block">
+                <a href="#writers" class="hover:text-secondary-gold transition duration-300">The Writers</a>
+                <a href="#about" class="hover:text-secondary-gold transition duration-300">About the Project</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative overflow-hidden pt-20 pb-24 md:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-secondary-gold uppercase tracking-widest text-lg font-medium mb-3">The Literary Pioneers</p>
+            <h2 class="heading-font text-5xl sm:text-7xl lg:text-8xl font-extrabold leading-tight">
+                The Unsung Voices of Marathi Literature.
+            </h2>
+            <p class="mt-6 text-xl text-gray-400 max-w-3xl mx-auto">
+                Discover the poets, reformers, and philosophers who shaped modern Marathi thought but whose brilliance remains largely uncelebrated on the global stage. Their words are a beautiful monument to human spirit and regional identity.
+            </p>
+            <a href="#writers" class="mt-10 inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full shadow-lg text-primary-dark bg-secondary-gold hover:bg-yellow-400 transition duration-300 transform hover:scale-105">
+                Explore Their Works
+                <svg class="ml-3 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Writers Grid Section -->
+    <section id="writers" class="py-16 md:py-24 bg-accent-gray/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="heading-font text-4xl sm:text-5xl font-bold text-center mb-16 text-secondary-gold">
+                The Architects of Marathi Katha
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- 1. Gauri Deshpande -->
+                <div id="gauri-deshpande" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Gauri Deshpande</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1942–2003)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Pioneering Feminist Writer & Poet</p>
+                    <p class="text-gray-300">Her revolutionary short stories and poetry fearlessly addressed **female sexuality, individual freedom, and complex modern relationships**, breaking social taboos and giving voice to the internal life of the modern Marathi woman.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#gauri-deshpande" class="hover:text-yellow-200 transition duration-150">*Tishya's Mother*</a></li>
+                            <li><a href="#gauri-deshpande" class="hover:text-yellow-200 transition duration-150">*Nirgas*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 2. Narayan Surve -->
+                <div id="narayan-surve" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Narayan Surve</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1926–2010)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Poet of the Proletariat</p>
+                    <p class="text-gray-300">His raw, direct poetry chronicled the life of the **Bombay slum dweller and factory laborer**. He transformed the lived experience of the marginalized into powerful, emotional art, cementing his legacy as a true people's poet.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#narayan-surve" class="hover:text-yellow-200 transition duration-150">*Maza Vidyapeeth* (My University)</a></li>
+                            <li><a href="#narayan-surve" class="hover:text-yellow-200 transition duration-150">*Jahirkama* (Manifesto)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 3. Vinda Karandikar -->
+                <div id="vinda-karandikar" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Vinda Karandikar</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1918–2010)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Modernist Poet & Critic (Jnanpith Winner)</p>
+                    <p class="text-gray-300">His deeply philosophical and experimental poetry helped Marathi literature transition into modernism. His work beautifully explored the **existential condition** and remains a cornerstone of contemporary Indian poetry.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#vinda-karandikar" class="hover:text-yellow-200 transition duration-150">*Svedganga*</a></li>
+                            <li><a href="#vinda-karandikar" class="hover:text-yellow-200 transition duration-150">*Virupika*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 4. Irawati Karve -->
+                <div id="irawati-karve" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Irawati Karve</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1905–1970)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Anthropologist & Mythologist</p>
+                    <p class="text-gray-300">Her beautiful, humanistic analysis in *Yuganta* stripped away the divinity from the **Mahabharata** characters, revealing them as deeply flawed, relatable people. She pioneered cultural interpretation through literature.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#irawati-karve" class="hover:text-yellow-200 transition duration-150">*Yuganta* (The End of an Epoch)</a></li>
+                            <li><a href="#irawati-karve" class="hover:text-yellow-200 transition duration-150">*Bhovara* (Whirlpool)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 5. G. A. Kulkarni ("G. A.") -->
+                <div id="ga-kulkarni" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">G. A. Kulkarni</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1923–1987)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Master of Existentialist Short Stories</p>
+                    <p class="text-gray-300">Known simply as "G.A.," his work is recognized for its dark, sparse, and profound exploration of **loneliness, suffering, and the absurd nature of human existence**. A unique voice in Indian letters.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#ga-kulkarni" class="hover:text-yellow-200 transition duration-150">*Rakta-chandan*</a></li>
+                            <li><a href="#ga-kulkarni" class="hover:text-yellow-200 transition duration-150">*Pingalvela*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 6. V. P. Kale ("Vapu") -->
+                <div id="vp-kale" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">V. P. Kale ("Vapu")</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1932–2001)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Humorist & Conversational Essayist</p>
+                    <p class="text-gray-300">Vapu turned everyday conversation (*Gappa*) into high art. His writing is a gentle, observational blend of humor and deep philosophy, capturing the subtle **joys and ironies of middle-class life**.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#vp-kale" class="hover:text-yellow-200 transition duration-150">*Vapurali*</a></li>
+                            <li><a href="#vp-kale" class="hover:text-yellow-200 transition duration-150">*Mala Vatawe*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 7. Shanta Shelke -->
+                <div id="shanta-shelke" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Shanta Shelke</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1922–2002)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Poet and Lyrical Songwriter</p>
+                    <p class="text-gray-300">Her work, though widely heard as popular film and theatre songs, often obscures the strength of her original poetry. She is celebrated for her **romantic depth and sensitive depictions of nature and emotion**.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#shanta-shelke" class="hover:text-yellow-200 transition duration-150">*Varsha* (Collection of Poems)</a></li>
+                            <li><a href="#shanta-shelke" class="hover:text-yellow-200 transition duration-150">*Toch Chandrama* (Lyric Collection)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- 8. Laxmibai Tilak -->
+                <div id="laxmibai-tilak" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Laxmibai Tilak</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1869–1936)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Early Autobiographical Pioneer</p>
+                    <p class="text-gray-300">Her autobiography, *Smritisamudra* (A Sea of Memories), is a beautiful, candid historical record of a woman's life during a period of intense social transition in India, characterized by honesty and resilience.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#laxmibai-tilak" class="hover:text-yellow-200 transition duration-150">*Smritisamudra* (A Sea of Memories)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 9. B. B. Borkar -->
+                <div id="bb-borkar" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">B. B. Borkar</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1910–1984)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Poet of Nature and Sensuality</p>
+                    <p class="text-gray-300">Known for his lyrical sweetness and vibrant celebration of the natural beauty of Goa. He mastered the *Geet* (song-poem), infusing his work with an intense, beautiful sensuality often overlooked in literary history.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#bb-borkar" class="hover:text-yellow-200 transition duration-150">*Jivan Laya*</a></li>
+                            <li><a href="#bb-borkar" class="hover:text-yellow-200 transition duration-150">*Bhavin*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 10. Indira Sant -->
+                <div id="indira-sant" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Indira Sant</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1914–2000)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Poet of Profound Personal Grief</p>
+                    <p class="text-gray-300">Her poetry is a collection of deeply moving personal experiences, focusing on themes of **loss, intense devotion, and solitude** after tragedy. Her emotional depth makes her one of the most affecting Marathi poets.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#indira-sant" class="hover:text-yellow-200 transition duration-150">*Shela*</a></li>
+                            <li><a href="#indira-sant" class="hover:text-yellow-200 transition duration-150">*Mendi*</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 11. Sane Guruji -->
+                <div id="sane-guruji" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">Sane Guruji</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1899–1950)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Social Reformer & Children's Author</p>
+                    <p class="text-gray-300">He used simple, beautiful literature, like *Shyamchi Aai*, to impart moral, ethical, and social reform values. His work profoundly shaped the **ethical imagination** of a generation of Marathi readers.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#sane-guruji" class="hover:text-yellow-200 transition duration-150">*Shyamchi Aai* (Shyam's Mother)</a></li>
+                            <li><a href="#sane-guruji" class="hover:text-yellow-200 transition duration-150">*Teen Mule* (Three Children)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 12. D. R. Bendre -->
+                <div id="dr-bendre" class="bg-primary-dark p-8 rounded-xl shadow-2xl border-b-4 border-secondary-gold/50 hover:border-secondary-gold transition duration-500 transform hover:-translate-y-1">
+                    <h4 class="heading-font text-3xl font-bold text-secondary-gold">D. R. Bendre</h4>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">(1896–1981)</p>
+                    <p class="text-lg font-semibold text-text-light mb-3">Bilingual Poet (Marathi/Kannada)</p>
+                    <p class="text-gray-300">While primarily known in Karnataka, his Marathi poetry is a technical marvel, showing a deep, often-overlooked command of **rhythm, folk tradition, and philosophical verse**, blending cultural forms beautifully.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-700">
+                        <p class="font-bold text-sm text-secondary-gold mb-1">Key Works:</p>
+                        <ul class="text-sm text-gray-300 space-y-0.5">
+                            <li><a href="#dr-bendre" class="hover:text-yellow-200 transition duration-150">*Sakhigeet*</a></li>
+                            <li><a href="#dr-bendre" class="hover:text-yellow-200 transition duration-150">*Naadaleela*</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Project Note / Empty Space Filler -->
+                <div class="md:col-span-2 lg:col-span-3 text-center pt-10">
+                    <p id="about" class="heading-font text-2xl text-gray-400 italic">"The writer is the chief architect of the soul of the people."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Enhanced) -->
+    <footer class="bg-primary-dark border-t border-accent-gray/50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="heading-font text-2xl font-bold text-secondary-gold mb-4">Share These Unsung Voices</p>
+                <div class="flex justify-center space-x-6 mb-6">
+                    
+                    <a href="https://x.com/The_Kazuya_9" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-secondary-gold transition duration-300 flex items-center space-x-1" title="Share on X (Twitter)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.795-1.574 2.164-2.722-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.558-3.591-1.558-2.71 0-4.918 2.208-4.918 4.918 0 .385.044.759.131 1.115-4.085-.205-7.71-2.162-10.134-5.11-.424.726-.667 1.573-.667 2.476 0 1.705.867 3.208 2.188 4.088-.804-.027-1.565-.247-2.228-.616v.061c0 2.38 1.693 4.367 3.94 4.819-.413.112-.849.171-1.296.171-.317 0-.624-.031-.922-.089.626 1.956 2.443 3.376 4.6 3.415-1.685 1.321-3.804 2.109-6.155 2.109-.402 0-.799-.023-1.19-.071 2.179 1.397 4.768 2.21 7.548 2.21 9.052 0 14.008-7.502 14.008-14.008 0-.213-.005-.426-.014-.637.962-.695 1.796-1.56 2.453-2.541z"/></svg>
+                        <span>X (Twitter)</span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/nexus_09_09" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-secondary-gold transition duration-300 flex items-center space-x-1" title="Share on Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.254-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.849 0-3.204.012-3.584.069-4.849.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0c-3.259 0-3.667.014-4.944.072-4.032.196-6.142 2.307-6.338 6.338-.057 1.277-.071 1.684-.071 4.944 0 3.259.014 3.668.072 4.944.196 4.032 2.307 6.142 6.338 6.338 1.277.057 1.684.071 4.944.071 3.259 0 3.668-.014 4.944-.071 4.032-.196 6.142-2.307 6.338-6.338.057-1.277.071-1.684.071-4.944 0-3.259-.014-3.667-.072-4.944-.196-4.032-2.307-6.142-6.338-6.338-1.277-.059-1.684-.072-4.944-.072zM12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.442.646-1.442 1.442s.646 1.442 1.442 1.442 1.442-.646 1.442-1.442-.646-1.442-1.442-1.442z"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                    
+                    <a href="https://github.com/nayan200-coder" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-secondary-gold transition duration-300 flex items-center space-x-1" title="Find the project on GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.082-.742.082-.726.082-.726 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.77.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.237-3.221-.124-.303-.532-1.523.111-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.399 1.021 0 2.047.133 3.004.399 2.293-1.552 3.3-1.23 3.3-1.23.645 1.653.237 2.873.111 3.176.768.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.474 5.923.429.369.814 1.05.814 2.112v3.064c0 .316.194.695.797.576c4.768-1.586 8.2-6.084 8.2-11.387 0-6.627-5.373-12-12-12z"/></svg>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+                <p class="text-sm text-gray-500">&copy; 2024 Katha: Unsung Voices of Maharashtra. Designed to celebrate regional literary genius.</p>
+                <p class="text-xs text-gray-600 mt-2">Designed to preserve and promote **Marathi literary heritage** through technical excellence and beautiful design.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
